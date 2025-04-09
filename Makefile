@@ -25,7 +25,8 @@ SRCS_FILES = solver_nodes.c \
 	ft_export.c \
 	ft_unset.c \
 	ft_echo.c \
-	ft_pwd.c
+	ft_pwd.c \
+	ft_cd.c
 OBJS_FILES = solver_nodes.o \
 	solver_tokens.o \
 	parsing.o \
@@ -49,7 +50,8 @@ OBJS_FILES = solver_nodes.o \
 	ft_export.o \
 	ft_unset.o \
 	ft_echo.o \
-	ft_pwd.o 
+	ft_pwd.o \
+	ft_cd.o
 all: $(NAME)
 
 $(NAME): $(OBJS_FILES)

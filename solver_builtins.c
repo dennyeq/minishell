@@ -21,7 +21,9 @@ int run_builtin(char **args, t_shdata *sh)
     if (!ft_strcmp(args[0], "echo"))
         return (ft_echo(args), 0);
     if (!ft_strcmp(args[0], "pwd"))
-		return (ft_pwd());    
+		return (ft_pwd());  
+    if (!ft_strcmp(args[0], "cd"))
+	    return (ft_cd(args));  
     if (!ft_strcmp(args[0], "exit"))
 		ft_exit(args);
     return (1);

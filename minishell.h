@@ -199,5 +199,6 @@ int     ft_export(char **args, t_shdata *shell);
 int		ft_unset(char **args, t_shdata *sh);
 int		ft_echo(char **args);
 int		ft_pwd(void);
+int		ft_cd(char **args);
 
 #endif
